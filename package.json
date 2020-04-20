@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@types/chrome": "^0.0.104",
+    "prettier": "^2.0.4",
+    "typescript": "^3.8.3"
+  },
+  "name": "tiny-chrome-extensions-wrapper",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "repository": "git@github.com:Bnaya/tiny-chrome-extensions-wrapper.git",
+  "author": "Bnaya Peretz <me@bnaya.net>",
+  "license": "MIT",
+  "scripts": {
+    "deduplicate": "npx yarn-deduplicate -s fewer yarn.lock"
+  }
+}
